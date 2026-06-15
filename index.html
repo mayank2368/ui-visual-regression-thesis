@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Visual Regression Benchmark</title>
+
+    <!-- Always loaded -->
+    <link rel="stylesheet" href="variants/baseline.css" />
+
+    <!-- Only bug-specific overrides go here -->
+    <link id="variant" rel="stylesheet" href="" />
+
+    <script defer src="switchVariant.js"></script>
+  </head>
+  <body>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="logo">Mayank<span>Labs</span></div>
+
+      <nav>
+        <a class="active">Dashboard</a>
+        <a>Analytics</a>
+        <a>Reports</a>
+        <a>Users</a>
+        <a>Settings</a>
+      </nav>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main-content">
+      <!-- TOPBAR -->
+      <header class="topbar">
+        <div>
+          <h1>Visual Regression Dashboard</h1>
+          <p>Controlled Benchmark Environment</p>
+        </div>
+
+        <button class="primary-btn">Deploy</button>
+      </header>
+
+      <!-- STATS -->
+      <section class="stats-grid">
+        <div class="stat-card">
+          <h3>Total Users</h3>
+          <p>12,480</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Revenue</h3>
+          <p>$82,300</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Orders</h3>
+          <p>1,294</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Conversion</h3>
+          <p>8.4%</p>
+        </div>
+      </section>
+
+      <!-- CHART SECTION -->
+      <section class="chart-section">
+        <div class="chart-card">
+          <h2>Performance Overview</h2>
+
+          <div class="fake-chart">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+
+        <div class="activity-card">
+          <h2>Recent Activity</h2>
+
+          <div class="activity-item">
+            <span class="dot success"></span>
+            UI Deployment Successful
+          </div>
+
+          <div class="activity-item">
+            <span class="dot pending"></span>
+            Regression Test Running
+          </div>
+
+          <div class="activity-item">
+            <span class="dot error"></span>
+            CSS Conflict Detected
+          </div>
+        </div>
+      </section>
+
+      <!-- TABLE -->
+      <section class="table-card">
+        <h2>Latest Transactions</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>User</th>
+              <th>Status</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>#1032</td>
+              <td>Alex</td>
+              <td><span class="badge success">Completed</span></td>
+              <td>$240</td>
+            </tr>
+
+            <tr>
+              <td>#1033</td>
+              <td>Maria</td>
+              <td><span class="badge pending">Pending</span></td>
+              <td>$180</td>
+            </tr>
+
+            <tr>
+              <td>#1034</td>
+              <td>John</td>
+              <td><span class="badge error">Failed</span></td>
+              <td>$90</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

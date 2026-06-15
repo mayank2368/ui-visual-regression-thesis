@@ -1,0 +1,58 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Dashboard_Baseline_0_document_0_phone.png",
+        "test": "../bitmaps_test/20260615-084545/backstop_default_Dashboard_Baseline_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Dashboard_Baseline_0_document_0_phone.png",
+        "label": "Dashboard Baseline",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/index.html?variant=color-bug",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.4002707285655025,
+          "misMatchPercentage": "0.40",
+          "analysisTime": 11
+        },
+        "diffImage": "../bitmaps_test/20260615-084545/failed_diff_backstop_default_Dashboard_Baseline_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Dashboard_Baseline_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20260615-084545/backstop_default_Dashboard_Baseline_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Dashboard_Baseline_0_document_1_tablet.png",
+        "label": "Dashboard Baseline",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/index.html?variant=color-bug",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.34451535733404715,
+          "misMatchPercentage": "0.34",
+          "analysisTime": 19
+        },
+        "diffImage": "../bitmaps_test/20260615-084545/failed_diff_backstop_default_Dashboard_Baseline_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+});
