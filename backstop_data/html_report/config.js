@@ -3,56 +3,30 @@ report({
   "tests": [
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Dashboard_Baseline_0_document_0_phone.png",
-        "test": "../bitmaps_test/20260615-084545/backstop_default_Dashboard_Baseline_0_document_0_phone.png",
+        "reference": "../bitmaps_reference/ui-regression-benchmark_Baseline_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20260709-121703/ui-regression-benchmark_Baseline_0_document_0_desktop.png",
         "selector": "document",
-        "fileName": "backstop_default_Dashboard_Baseline_0_document_0_phone.png",
-        "label": "Dashboard Baseline",
+        "fileName": "ui-regression-benchmark_Baseline_0_document_0_desktop.png",
+        "label": "Baseline",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
-        "url": "http://localhost:3000/index.html?variant=color-bug",
+        "url": "http://localhost:3000/index.html?variant=theme-bug",
         "expect": 0,
-        "viewportLabel": "phone",
+        "viewportLabel": "desktop",
         "diff": {
           "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.4002707285655025,
-          "misMatchPercentage": "0.40",
-          "analysisTime": 11
+          "rawMisMatchPercentage": 24.008371996193194,
+          "misMatchPercentage": "24.01",
+          "analysisTime": 17
         },
-        "diffImage": "../bitmaps_test/20260615-084545/failed_diff_backstop_default_Dashboard_Baseline_0_document_0_phone.png"
-      },
-      "status": "fail"
-    },
-    {
-      "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Dashboard_Baseline_0_document_1_tablet.png",
-        "test": "../bitmaps_test/20260615-084545/backstop_default_Dashboard_Baseline_0_document_1_tablet.png",
-        "selector": "document",
-        "fileName": "backstop_default_Dashboard_Baseline_0_document_1_tablet.png",
-        "label": "Dashboard Baseline",
-        "requireSameDimensions": true,
-        "misMatchThreshold": 0.1,
-        "url": "http://localhost:3000/index.html?variant=color-bug",
-        "expect": 0,
-        "viewportLabel": "tablet",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "rawMisMatchPercentage": 0.34451535733404715,
-          "misMatchPercentage": "0.34",
-          "analysisTime": 19
-        },
-        "diffImage": "../bitmaps_test/20260615-084545/failed_diff_backstop_default_Dashboard_Baseline_0_document_1_tablet.png"
+        "diffImage": "../bitmaps_test/20260709-121703/failed_diff_ui-regression-benchmark_Baseline_0_document_0_desktop.png"
       },
       "status": "fail"
     }
   ],
-  "id": "backstop_default"
+  "id": "ui-regression-benchmark"
 });

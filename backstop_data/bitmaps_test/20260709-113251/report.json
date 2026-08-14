@@ -1,0 +1,22 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/ui-regression-benchmark_Color_Bug_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20260709-113251/ui-regression-benchmark_Color_Bug_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "ui-regression-benchmark_Color_Bug_0_document_0_desktop.png",
+        "label": "Color Bug",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/index.html?variant=color-bug",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "error": "Reference file not found /Users/mayank-admin/practise_projects/Playwright/ui-reg-project/backstop_data/bitmaps_reference/ui-regression-benchmark_Color_Bug_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "ui-regression-benchmark"
+}

@@ -1,27 +1,22 @@
 {
-  "id": "backstop_default",
+  "id": "ui-regression-benchmark",
   "viewports": [
     {
-      "label": "phone",
-      "width": 320,
-      "height": 480
-    },
-    {
-      "label": "tablet",
-      "width": 1024,
-      "height": 768
+      "label": "desktop",
+      "width": 1440,
+      "height": 900
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "Dashboard Baseline",
-      "url": "http://localhost:3000/index.html?variant=color-bug",
+      "label": "Baseline",
+      "url": "http://localhost:3000/index.html?variant=theme-bug",
       "selectors": [
         "document"
       ],
-      "delay": 1000
+      "delay": 1500
     }
   ],
   "paths": {

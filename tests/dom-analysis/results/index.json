@@ -1,0 +1,103 @@
+[
+  {
+    "variant": "color-bug",
+    "totalChanges": 0,
+    "positionChanges": 0,
+    "sizeChanges": 0,
+    "visibilityChanges": 0,
+    "details": []
+  },
+  {
+    "variant": "subtle-color-bug",
+    "totalChanges": 0,
+    "positionChanges": 0,
+    "sizeChanges": 0,
+    "visibilityChanges": 0,
+    "details": []
+  },
+  {
+    "variant": "layout-bug",
+    "totalChanges": 8,
+    "positionChanges": 3,
+    "sizeChanges": 5,
+    "visibilityChanges": 0,
+    "details": [
+      "ASIDE (Element 0) changed size",
+      "DIV (Element 3) changed size",
+      "DIV (Element 4) changed position",
+      "DIV (Element 4) changed size",
+      "DIV (Element 5) changed position",
+      "DIV (Element 5) changed size",
+      "DIV (Element 6) changed position",
+      "DIV (Element 6) changed size"
+    ]
+  },
+  {
+    "variant": "visibility-bug",
+    "totalChanges": 1,
+    "positionChanges": 0,
+    "sizeChanges": 1,
+    "visibilityChanges": 0,
+    "details": [
+      "ASIDE (Element 0) changed size"
+    ]
+  },
+  {
+    "variant": "typography-bug",
+    "totalChanges": 7,
+    "positionChanges": 5,
+    "sizeChanges": 2,
+    "visibilityChanges": 0,
+    "details": [
+      "ASIDE (Element 0) changed size",
+      "HEADER (Element 1) changed size",
+      "BUTTON (Element 2) changed position",
+      "DIV (Element 3) changed position",
+      "DIV (Element 4) changed position",
+      "DIV (Element 5) changed position",
+      "DIV (Element 6) changed position"
+    ]
+  },
+  {
+    "variant": "spacing-bug",
+    "totalChanges": 5,
+    "positionChanges": 0,
+    "sizeChanges": 5,
+    "visibilityChanges": 0,
+    "details": [
+      "ASIDE (Element 0) changed size",
+      "DIV (Element 3) changed size",
+      "DIV (Element 4) changed size",
+      "DIV (Element 5) changed size",
+      "DIV (Element 6) changed size"
+    ]
+  },
+  {
+    "variant": "alignment-bug",
+    "totalChanges": 1,
+    "positionChanges": 1,
+    "sizeChanges": 0,
+    "visibilityChanges": 0,
+    "details": [
+      "BUTTON (Element 2) changed position"
+    ]
+  },
+  {
+    "variant": "overflow-bug",
+    "totalChanges": 1,
+    "positionChanges": 0,
+    "sizeChanges": 1,
+    "visibilityChanges": 0,
+    "details": [
+      "ASIDE (Element 0) changed size"
+    ]
+  },
+  {
+    "variant": "theme-bug",
+    "totalChanges": 0,
+    "positionChanges": 0,
+    "sizeChanges": 0,
+    "visibilityChanges": 0,
+    "details": []
+  }
+]

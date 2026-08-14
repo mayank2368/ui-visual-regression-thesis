@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 
 const variants = [
   'color-bug',
+  'subtle-color-bug',
   'layout-bug',
   'visibility-bug',
   'typography-bug',

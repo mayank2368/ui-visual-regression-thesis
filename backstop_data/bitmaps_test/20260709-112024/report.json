@@ -1,0 +1,32 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/ui-regression-benchmark_Baseline_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20260709-112024/ui-regression-benchmark_Baseline_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "ui-regression-benchmark_Baseline_0_document_0_desktop.png",
+        "label": "Baseline",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/index.html?variant=layout-bug",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -394
+          },
+          "rawMisMatchPercentage": 13.356708082329316,
+          "misMatchPercentage": "13.36",
+          "analysisTime": 31
+        },
+        "diffImage": "../bitmaps_test/20260709-112024/failed_diff_ui-regression-benchmark_Baseline_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "ui-regression-benchmark"
+}

@@ -1,3 +1,8 @@
-.sidebar {
-  width: 500px !important;
+.table-container {
+  width: 250px !important;
+}
+
+table td {
+  white-space: nowrap !important;
+  font-size: 24px !important;
 }

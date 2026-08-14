@@ -1,0 +1,58 @@
+{
+  "0": {
+    "tag": "ASIDE",
+    "x": 0,
+    "y": 0,
+    "width": 250,
+    "height": 932,
+    "visible": true
+  },
+  "1": {
+    "tag": "HEADER",
+    "x": 280,
+    "y": 30,
+    "width": 1130,
+    "height": 60,
+    "visible": true
+  },
+  "2": {
+    "tag": "BUTTON",
+    "x": 1321.546875,
+    "y": 40.5,
+    "width": 88.453125,
+    "height": 39,
+    "visible": true
+  },
+  "3": {
+    "tag": "DIV",
+    "x": 280,
+    "y": 120,
+    "width": 267.5,
+    "height": 111,
+    "visible": true
+  },
+  "4": {
+    "tag": "DIV",
+    "x": 567.5,
+    "y": 120,
+    "width": 267.5,
+    "height": 111,
+    "visible": true
+  },
+  "5": {
+    "tag": "DIV",
+    "x": 855,
+    "y": 120,
+    "width": 267.5,
+    "height": 111,
+    "visible": true
+  },
+  "6": {
+    "tag": "DIV",
+    "x": 1142.5,
+    "y": 120,
+    "width": 267.5,
+    "height": 111,
+    "visible": true
+  }
+}
