@@ -12,7 +12,7 @@ A benchmark project for comparing visual validation approaches in automated UI t
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mayank2368/ui-visual-regression-thesis.git
 cd ui-reg-project
 npm install
 npx playwright install chromium
